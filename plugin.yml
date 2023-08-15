@@ -1,0 +1,20 @@
+name: MicroAbosh
+main: laith98\MB\Main
+api: 3.0.0
+author: abosh
+version: 1.0.0
+description: MicroAbosh By abosh 
+website: https://github.com/AboshDevOfficial
+
+commands:
+   mb:
+      description: MicroAbosh Commands
+
+permissions:
+   mb:
+      default: false
+      description: "MicroAbosh Command"
+      children:
+          mb.use:
+              default: op
+              description: "Allows player use mb commands"
